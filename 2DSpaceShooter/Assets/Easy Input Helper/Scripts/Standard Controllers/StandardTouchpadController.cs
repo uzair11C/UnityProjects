@@ -20,6 +20,8 @@ namespace EasyInput.StandardControllers
         float horizontal;
         float vertical;
 
+        public float max_X;
+        public float min_X;
 
         void OnEnable()
         {
@@ -55,13 +57,25 @@ namespace EasyInput.StandardControllers
 
             //otherwise is a continuation
             horizontal = (touch.currentTouchPosition.x - lastFrameTouch.x) * sensitivity * Time.deltaTime * 100f;
+
             vertical = (touch.currentTouchPosition.y - lastFrameTouch.y) * sensitivity * Time.deltaTime * 100f;
+
+            //if (vertical <= min_Y)
+            //{
+            //    vertical = min_Y;
+            //}
+
             actionVector3 = EasyInputUtilities.getControllerVector3(horizontal, vertical, axisHorizontal, axisVertical);
 
             switch (action)
             {
                 case EasyInputConstants.ACTION_TYPE.Position:
                     transform.position += actionVector3;
+                    Vector3 temp = transform.position;
+                    if (temp.x >= max_X)
+                    {
+                        temp.x = max_X;
+                    }
                     break;
                 case EasyInputConstants.ACTION_TYPE.Rotation:
                     transform.Rotate(actionVector3, Space.World);
