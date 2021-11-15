@@ -23,6 +23,16 @@ namespace EasyInput.StandardControllers
         public float max_X;
         public float min_X;
 
+        public float attackTimer = 0.35f;
+        private float currentAttackTime;
+        private bool canAttack;
+
+        [SerializeField]
+        private GameObject playerBullet;
+
+        [SerializeField]
+        private Transform attackPoint;
+
         void OnEnable()
         {
             EasyInputHelper.On_Touch += localAxis;
@@ -35,9 +45,40 @@ namespace EasyInput.StandardControllers
             EasyInputHelper.On_TouchEnd -= localAxisEnd;
         }
 
-        // Update is called once per frame
+        void Start()
+        {
+            currentAttackTime = attackTimer; 
+        }
+
         void Update()
         {
+            if (horizontal >= max_X)
+            {
+                horizontal = max_X;
+            }
+
+            Attack();
+        }
+
+        public void Attack()
+        {
+            attackTimer += Time.deltaTime;
+
+            if(attackTimer > currentAttackTime)
+            {
+                canAttack = true;
+            }
+
+            if (Input.GetButtonDown("Fire1"))
+            {
+                if (canAttack)
+                {
+                    canAttack = false;
+                    attackTimer = 0f;
+                    Instantiate(playerBullet, attackPoint.position, Quaternion.identity);
+                }            
+            }
+            
         }
 
         void localAxisEnd(InputTouch touch)
@@ -48,6 +89,7 @@ namespace EasyInput.StandardControllers
 
         void localAxis(InputTouch touch)
         {
+
             //first check to see if this is the first frame
             if (lastFrameTouch == EasyInputConstants.NOT_TOUCHING)
             {
@@ -60,22 +102,12 @@ namespace EasyInput.StandardControllers
 
             vertical = (touch.currentTouchPosition.y - lastFrameTouch.y) * sensitivity * Time.deltaTime * 100f;
 
-            //if (vertical <= min_Y)
-            //{
-            //    vertical = min_Y;
-            //}
-
             actionVector3 = EasyInputUtilities.getControllerVector3(horizontal, vertical, axisHorizontal, axisVertical);
 
             switch (action)
             {
                 case EasyInputConstants.ACTION_TYPE.Position:
                     transform.position += actionVector3;
-                    Vector3 temp = transform.position;
-                    if (temp.x >= max_X)
-                    {
-                        temp.x = max_X;
-                    }
                     break;
                 case EasyInputConstants.ACTION_TYPE.Rotation:
                     transform.Rotate(actionVector3, Space.World);
