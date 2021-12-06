@@ -23,7 +23,7 @@ namespace EasyInput.StandardControllers
         public float max_X;
         public float min_X;
 
-        public float attackTimer = 0.35f;
+        public float attackTimer = 0.15f;
         private float currentAttackTime;
         private bool canAttack;
 
