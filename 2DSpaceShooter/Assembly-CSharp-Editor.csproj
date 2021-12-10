@@ -47,14 +47,14 @@
   <PropertyGroup>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <UnityProjectGenerator>Package</UnityProjectGenerator>
-    <UnityProjectGeneratorVersion>2.0.11</UnityProjectGeneratorVersion>
+    <UnityProjectGeneratorVersion>2.0.12</UnityProjectGeneratorVersion>
     <UnityProjectType>Editor:5</UnityProjectType>
     <UnityBuildTarget>tvOS:37</UnityBuildTarget>
     <UnityVersion>2020.3.22f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\Easy Input Helper\Scripts\Core\Editor\CreateAxesEditor.cs" />
-    <Compile Include="Assets\Easy Input Helper\Scripts\Core\Editor\EasyInputMenu.cs" />
+    <Compile Include="Assets\Easy Input Helper 1\Scripts\Core\Editor\CreateAxesEditor.cs" />
+    <Compile Include="Assets\Easy Input Helper 1\Scripts\Core\Editor\EasyInputMenu.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

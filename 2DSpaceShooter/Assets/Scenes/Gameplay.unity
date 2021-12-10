@@ -218,7 +218,7 @@ Transform:
   m_LocalScale: {x: 18, y: 10.2, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &344210529
 MonoBehaviour:
@@ -380,7 +380,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1396999206
 GameObject:
@@ -433,11 +433,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1396999206}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.95, y: -0.05463043, z: -15.260741}
+  m_LocalPosition: {x: 8.62, y: -0.05463043, z: -15.260741}
   m_LocalScale: {x: 0.61, y: 10.57, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!850595691 &1449180804
 LightingSettings:
@@ -555,7 +555,7 @@ Transform:
   m_LocalScale: {x: 0.61, y: 10.57, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &5218513766770372799
 PrefabInstance:
@@ -564,20 +564,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 5218513766301069706, guid: 3ecf057d15eb76246985c01fbfc64dbd,
-        type: 3}
-      propertyPath: m_Mass
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5218513766301069706, guid: 3ecf057d15eb76246985c01fbfc64dbd,
-        type: 3}
-      propertyPath: m_UseAutoMass
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 5218513766301069710, guid: 3ecf057d15eb76246985c01fbfc64dbd,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5218513766301069710, guid: 3ecf057d15eb76246985c01fbfc64dbd,
         type: 3}
@@ -633,11 +623,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 5218513766770372801, guid: 3ecf057d15eb76246985c01fbfc64dbd,
-        type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ecf057d15eb76246985c01fbfc64dbd, type: 3}
