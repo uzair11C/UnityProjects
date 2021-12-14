@@ -22,6 +22,9 @@ namespace EasyInput.StandardControllers
 
         public Transform player;
         public GameObject bullet;
+        public Transform L_A_P;
+        public Transform R_A_P;
+
         public float attackTimer = 0.15f;
         private float currentAttackTime;
         private bool canAttack;
@@ -46,7 +49,32 @@ namespace EasyInput.StandardControllers
         // Update is called once per frame
         void Update()
         {
+            Vector3 pos = transform.position;
+
             Attack();
+            if (pos.y < -3.6f)
+            {
+                pos.y = -3.6f;
+                transform.position = pos;
+            }
+
+            if (pos.y > 3.6f)
+            {
+                pos.y = 3.6f;
+                transform.position = pos;
+            }
+
+            if (pos.x > 8.22f)
+            {
+                pos.x = 8.22f;
+                transform.position = pos;
+            }
+
+            if (pos.x < -8.22f)
+            {
+                pos.x = -8.22f;
+                transform.position = pos;
+            }
         }
 
         public void Attack()
@@ -68,8 +96,9 @@ namespace EasyInput.StandardControllers
 
         void shoot()
         {
-            GameObject b = Instantiate(bullet) as GameObject;
-            b.transform.position = player.transform.position;
+            Instantiate(bullet,L_A_P.position,Quaternion.identity);
+            Instantiate(bullet, R_A_P.position, Quaternion.identity);
+
         }
 
         void localAxisEnd(InputTouch touch)

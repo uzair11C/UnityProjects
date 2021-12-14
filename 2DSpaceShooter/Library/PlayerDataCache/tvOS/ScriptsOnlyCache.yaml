@@ -27,19 +27,12 @@ ScriptsOnlyBuild:
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
     - TMPro.TextMeshProUGUI
-    UnityEditor.Graphs.dll:
-    - UnityEditor.Graphs.AnimationBlendTree.Graph
-    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.Graph
-    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
-    - UnityEngine.EventSystems.StandaloneInputModule
     - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
@@ -63,25 +56,25 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1550}
+      Script: {instanceID: 1504}
     - Class: 114
-      Script: {instanceID: 1910}
+      Script: {instanceID: 1840}
     - Class: 114
-      Script: {instanceID: 2780}
+      Script: {instanceID: 2636}
     - Class: 114
-      Script: {instanceID: 2946}
+      Script: {instanceID: 2790}
     - Class: 114
-      Script: {instanceID: 3006}
+      Script: {instanceID: 2840}
     - Class: 114
-      Script: {instanceID: 3202}
+      Script: {instanceID: 3024}
     - Class: 114
-      Script: {instanceID: 3446}
+      Script: {instanceID: 3372}
     - Class: 114
-      Script: {instanceID: 3570}
+      Script: {instanceID: 4022}
     - Class: 114
-      Script: {instanceID: 4290}
+      Script: {instanceID: 4862}
     - Class: 114
-      Script: {instanceID: 5860}
+      Script: {instanceID: 5502}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -132,19 +125,19 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 2014}
+      Script: {instanceID: 1930}
     - Class: 114
-      Script: {instanceID: 2074}
+      Script: {instanceID: 1988}
     - Class: 114
-      Script: {instanceID: 2600}
+      Script: {instanceID: 2476}
     - Class: 114
-      Script: {instanceID: 3056}
+      Script: {instanceID: 2886}
     - Class: 114
-      Script: {instanceID: 4592}
+      Script: {instanceID: 4302}
     - Class: 114
-      Script: {instanceID: 4814}
+      Script: {instanceID: 4506}
     - Class: 114
-      Script: {instanceID: 5196}
+      Script: {instanceID: 4862}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -177,33 +170,33 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1550}
+      Script: {instanceID: 1504}
     - Class: 114
-      Script: {instanceID: 1910}
+      Script: {instanceID: 1840}
     - Class: 114
-      Script: {instanceID: 2334}
+      Script: {instanceID: 2230}
     - Class: 114
-      Script: {instanceID: 2780}
+      Script: {instanceID: 2636}
     - Class: 114
-      Script: {instanceID: 2946}
+      Script: {instanceID: 2790}
     - Class: 114
-      Script: {instanceID: 3006}
+      Script: {instanceID: 2840}
     - Class: 114
-      Script: {instanceID: 3202}
+      Script: {instanceID: 3024}
     - Class: 114
-      Script: {instanceID: 3446}
+      Script: {instanceID: 3372}
     - Class: 114
-      Script: {instanceID: 3570}
+      Script: {instanceID: 4022}
     - Class: 114
-      Script: {instanceID: 4290}
+      Script: {instanceID: 4486}
     - Class: 114
-      Script: {instanceID: 4794}
+      Script: {instanceID: 4628}
     - Class: 114
-      Script: {instanceID: 4940}
+      Script: {instanceID: 4862}
     - Class: 114
-      Script: {instanceID: 5324}
+      Script: {instanceID: 4984}
     - Class: 114
-      Script: {instanceID: 5860}
+      Script: {instanceID: 5502}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -411,7 +404,7 @@ ScriptsOnlyBuild:
     className: AnchorTextAbove
   - hash:
       serializedVersion: 2
-      Hash: f1d735cc1a21c3704ab52568f4fbfcf8
+      Hash: 91d258529db2b5060a913f2afcea1a21
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner
     className: PlaymodeTestsController
@@ -445,12 +438,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: EasyInput.Misc
     className: ExitToMaster
-  - hash:
-      serializedVersion: 2
-      Hash: a325152ad9563ed900af221c132fea36
-    assemblyName: UnityEngine.Advertisements.dll
-    namespaceName: UnityEngine.Advertisements.Utilities
-    className: CoroutineExecutor
   - hash:
       serializedVersion: 2
       Hash: a1aa98c78061c6f03a8c124cda576e67
@@ -523,12 +510,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: asteroidDeployer
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: UnityEngine.Advertisements.dll
-    namespaceName: UnityEngine.Advertisements
-    className: Placeholder
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -688,12 +669,6 @@ ScriptsOnlyBuild:
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: UnityEngine.Advertisements.dll
-    namespaceName: UnityEngine.Advertisements.Utilities
-    className: ApplicationQuit
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
     className: PlayerQuitHandler
@@ -709,12 +684,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: BaseInput
-  - hash:
-      serializedVersion: 2
-      Hash: 88e2c6f501bf5dead831a3e44c30de40
-    assemblyName: UnityEngine.Advertisements.dll
-    namespaceName: UnityEngine.Advertisements.Platform.Editor
-    className: BannerPlaceholder
   - hash:
       serializedVersion: 2
       Hash: e63944317d2f5958e31963668bb29158
@@ -1116,4 +1085,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/MainMenu.unity
   - Assets/Scenes/Gameplay.unity
   - Assets/Scenes/DefeatScene.unity
-  playerPath: E:/UnityBuilds
+  playerPath: E:/UnityBuilds/2DSpaceShooterBuild2

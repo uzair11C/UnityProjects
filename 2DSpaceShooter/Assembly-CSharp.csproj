@@ -53,78 +53,78 @@
     <UnityVersion>2020.3.22f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\Easy Input Helper 1\Scripts\Miscellaneous\CombinedButtonAndTilt.cs" />
+    <Compile Include="Assets\Easy Input Helper 1\Scripts\Core\Datatypes\InputTouch.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
+    <Compile Include="Assets\Easy Input Helper 1\Scripts\Miscellaneous\CameraFollowBall.cs" />
+    <Compile Include="Assets\Easy Input Helper 1\Scripts\Standard Controllers\StandardTouchDpadController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
+    <Compile Include="Assets\Easy Input Helper 1\Scripts\Standard Controllers\StandardAccelerometerController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
     <Compile Include="Assets\Custom Scripts\asteroid.cs" />
+    <Compile Include="Assets\Easy Input Helper 1\Scripts\Standard Controllers\StandardMatchOrientationHorizontalController.cs" />
     <Compile Include="Assets\Custom Scripts\BulletScript.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
+    <Compile Include="Assets\Easy Input Helper 1\Scripts\Custom Controllers\CustomTouchVoidController.cs" />
+    <Compile Include="Assets\Easy Input Helper 1\Scripts\Core\Datatypes\ButtonClick.cs" />
+    <Compile Include="Assets\Easy Input Helper 1\Scripts\Custom Controllers\CustomButtonClickController.cs" />
+    <Compile Include="Assets\Easy Input Helper 1\Scripts\Core\Datatypes\Motion.cs" />
+    <Compile Include="Assets\Easy Input Helper 1\Scripts\Miscellaneous\AnchorTextAbove.cs" />
+    <Compile Include="Assets\Easy Input Helper 1\Scripts\Custom Controllers\CustomMotionController.cs" />
+    <Compile Include="Assets\Easy Input Helper 1\Scripts\Standard Controllers\StandardTouchpadController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
+    <Compile Include="Assets\Easy Input Helper 1\Scripts\Miscellaneous\ExitToMaster.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
+    <Compile Include="Assets\Easy Input Helper 1\Scripts\Standard Controllers\StandardAxisController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
     <Compile Include="Assets\Custom Scripts\asteroidDeployer.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
+    <Compile Include="Assets\Easy Input Helper 1\Scripts\Miscellaneous\ControllerDiagnostics.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
+    <Compile Include="Assets\Easy Input Helper 1\Scripts\Miscellaneous\ExampleNavigation.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
+    <Compile Include="Assets\Easy Input Helper 1\Scripts\Core\EasyInputConstants.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
+    <Compile Include="Assets\Easy Input Helper 1\Scripts\Miscellaneous\ChangeColor.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
+    <Compile Include="Assets\Easy Input Helper 1\Scripts\InputModules\EasyInputModule.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
+    <Compile Include="Assets\Easy Input Helper 1\Scripts\Custom Controllers\CustomTouchInputController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
     <Compile Include="Assets\Custom Scripts\collision.cs" />
+    <Compile Include="Assets\Easy Input Helper 1\Scripts\Miscellaneous\TouchDiagnostics.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
+    <Compile Include="Assets\Easy Input Helper 1\Scripts\Standard Controllers\StandardMatchOrientationVerticalController.cs" />
+    <Compile Include="Assets\Easy Input Helper 1\Scripts\Custom Controllers\CustomAxisController.cs" />
     <Compile Include="Assets\Custom Scripts\BGScroller.cs" />
+    <Compile Include="Assets\Easy Input Helper 1\Scripts\Miscellaneous\MotionDiagnostics.cs" />
+    <Compile Include="Assets\Easy Input Helper 1\Scripts\Miscellaneous\Steering.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
+    <Compile Include="Assets\Easy Input Helper 1\Scripts\Core\EasyInputUtilities.cs" />
+    <Compile Include="Assets\Easy Input Helper 1\Scripts\Miscellaneous\BowlingThrow.cs" />
+    <Compile Include="Assets\Easy Input Helper 1\Scripts\Core\EasyInputHelper.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
+    <Compile Include="Assets\Easy Input Helper 1\Scripts\Custom Controllers\CustomButtonVoidController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
+    <Compile Include="Assets\Easy Input Helper 1\Scripts\Miscellaneous\BowlingFollow.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
+    <Compile Include="Assets\Easy Input Helper 1\Scripts\Core\Datatypes\ControllerAxis.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\Custom Scripts\MenuNavigator.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
-    <Compile Include="Assets\Easy Input Helper 1\Scripts\Standard Controllers\StandardTouchpadController.cs" />
-    <Compile Include="Assets\Easy Input Helper 1\Scripts\Core\Datatypes\ControllerAxis.cs" />
-    <Compile Include="Assets\Easy Input Helper 1\Scripts\Custom Controllers\CustomMotionController.cs" />
-    <Compile Include="Assets\Easy Input Helper 1\Scripts\Miscellaneous\CombinedButtonAndTilt.cs" />
-    <Compile Include="Assets\Easy Input Helper 1\Scripts\InputModules\EasyInputModule.cs" />
-    <Compile Include="Assets\Easy Input Helper 1\Scripts\Miscellaneous\ControllerDiagnostics.cs" />
-    <Compile Include="Assets\Easy Input Helper 1\Scripts\Miscellaneous\MotionDiagnostics.cs" />
-    <Compile Include="Assets\Easy Input Helper 1\Scripts\Custom Controllers\CustomButtonVoidController.cs" />
-    <Compile Include="Assets\Easy Input Helper 1\Scripts\Custom Controllers\CustomTouchInputController.cs" />
-    <Compile Include="Assets\Easy Input Helper 1\Scripts\Custom Controllers\CustomAxisController.cs" />
-    <Compile Include="Assets\Easy Input Helper 1\Scripts\Miscellaneous\ExitToMaster.cs" />
-    <Compile Include="Assets\Easy Input Helper 1\Scripts\Miscellaneous\TouchDiagnostics.cs" />
-    <Compile Include="Assets\Easy Input Helper 1\Scripts\Miscellaneous\BowlingThrow.cs" />
-    <Compile Include="Assets\Easy Input Helper 1\Scripts\Core\EasyInputConstants.cs" />
-    <Compile Include="Assets\Easy Input Helper 1\Scripts\Miscellaneous\BowlingFollow.cs" />
-    <Compile Include="Assets\Easy Input Helper 1\Scripts\Miscellaneous\ExampleNavigation.cs" />
-    <Compile Include="Assets\Easy Input Helper 1\Scripts\Standard Controllers\StandardAxisController.cs" />
-    <Compile Include="Assets\Easy Input Helper 1\Scripts\Miscellaneous\CameraFollowBall.cs" />
-    <Compile Include="Assets\Easy Input Helper 1\Scripts\Standard Controllers\StandardAccelerometerController.cs" />
-    <Compile Include="Assets\Easy Input Helper 1\Scripts\Core\Datatypes\InputTouch.cs" />
-    <Compile Include="Assets\Easy Input Helper 1\Scripts\Custom Controllers\CustomButtonClickController.cs" />
-    <Compile Include="Assets\Easy Input Helper 1\Scripts\Custom Controllers\CustomTouchVoidController.cs" />
-    <Compile Include="Assets\Easy Input Helper 1\Scripts\Core\EasyInputUtilities.cs" />
-    <Compile Include="Assets\Easy Input Helper 1\Scripts\Core\EasyInputHelper.cs" />
-    <Compile Include="Assets\Easy Input Helper 1\Scripts\Standard Controllers\StandardTouchDpadController.cs" />
-    <Compile Include="Assets\Easy Input Helper 1\Scripts\Standard Controllers\StandardMatchOrientationVerticalController.cs" />
-    <Compile Include="Assets\Easy Input Helper 1\Scripts\Core\Datatypes\ButtonClick.cs" />
-    <Compile Include="Assets\Easy Input Helper 1\Scripts\Core\Datatypes\Motion.cs" />
-    <Compile Include="Assets\Easy Input Helper 1\Scripts\Standard Controllers\StandardMatchOrientationHorizontalController.cs" />
-    <Compile Include="Assets\Easy Input Helper 1\Scripts\Miscellaneous\Steering.cs" />
-    <Compile Include="Assets\Easy Input Helper 1\Scripts\Miscellaneous\ChangeColor.cs" />
-    <Compile Include="Assets\Easy Input Helper 1\Scripts\Miscellaneous\AnchorTextAbove.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -360,17 +360,17 @@
     <Reference Include="UnityEditor.UnityConnectModule">
       <HintPath>F:\UnityEditor\2020.3.22f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\Newtonsoft.Json.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>Library\PackageCache\com.unity.analytics@3.6.11\AnalyticsStandardEvents\Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.analytics@3.6.12\AnalyticsStandardEvents\Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>Library\PackageCache\com.unity.analytics@3.6.11\Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.analytics@3.6.12\Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>Library\PackageCache\com.unity.analytics@3.6.11\Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>Library\PackageCache\com.unity.analytics@3.6.12\Unity.Analytics.Tracker.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0\Runtime\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>F:\UnityEditor\2020.3.22f1\Editor\Data\PlaybackEngines\AppleTVSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -753,9 +753,6 @@
     <Reference Include="UnityEngine.Purchasing.SecurityStub">
       <HintPath>Library\ScriptAssemblies\UnityEngine.Purchasing.SecurityStub.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Advertisements">
-      <HintPath>Library\ScriptAssemblies\UnityEngine.Advertisements.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.2D.Sprite.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
@@ -798,17 +795,11 @@
     <Reference Include="UnityEditor.XR.LegacyInputHelpers">
       <HintPath>Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Monetization">
-      <HintPath>Library\ScriptAssemblies\UnityEngine.Monetization.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor.Purchasing">
       <HintPath>Library\ScriptAssemblies\UnityEditor.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.SpatialTracking">
       <HintPath>Library\ScriptAssemblies\UnityEditor.SpatialTracking.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Advertisements.Editor">
-      <HintPath>Library\ScriptAssemblies\UnityEngine.Advertisements.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

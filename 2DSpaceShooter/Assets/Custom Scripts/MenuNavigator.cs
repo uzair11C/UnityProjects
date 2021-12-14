@@ -7,16 +7,18 @@ public class MenuNavigator : MonoBehaviour
 {
     public void play_game()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
     public void exit_game()
     {
-        Application.Quit();
+        
+            Application.Quit();
+        
     }
 
     public void Restart()
     {
-        SceneManager.LoadScene("Gameplay");
+            SceneManager.LoadScene("Gameplay");
     }
 }

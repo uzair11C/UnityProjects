@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637747281748752707
-    m_Hash: 3575106196
+      ticks: 637747370350731275
+    m_Hash: 99888235
   m_LockFileStatus:
     m_FilePath: E:/UnityProjects/2DSpaceShooter/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637747281751812387
-    m_Hash: 2542858388
+      ticks: 637747370351428361
+    m_Hash: 1463521548
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -121,152 +121,12 @@ m_PackageAssets:
         url: 
         revision: 
         path: 
-    - packageId: com.unity.ads@4.0.0
+    - packageId: com.unity.analytics@3.6.12
       testable: 0
       isDirectDependency: 1
-      version: 4.0.0
+      version: 3.6.12
       source: 1
-      resolvedPath: E:\UnityProjects\2DSpaceShooter\Library\PackageCache\com.unity.ads@4.0.0
-      assetPath: Packages/com.unity.ads
-      name: com.unity.ads
-      displayName: Advertisement
-      author:
-        name: 
-        email: 
-        url: 
-      category: 
-      type: 
-      description: Unity Ads is a video ad network for iOS and Android that allows
-        you to quickly and effectively monetize your games.
-      status: 4
-      errors: []
-      versions:
-        all:
-        - 0.0.3
-        - 0.0.4
-        - 0.0.5
-        - 0.0.6
-        - 0.0.7
-        - 0.0.8
-        - 0.0.10
-        - 0.0.11
-        - 0.0.12
-        - 0.0.13
-        - 0.0.14
-        - 0.0.15
-        - 0.0.16
-        - 2.0.0
-        - 2.0.3
-        - 2.0.4
-        - 2.0.7
-        - 2.0.8
-        - 2.3.1
-        - 2.3.2
-        - 3.0.1
-        - 3.0.2
-        - 3.0.3
-        - 3.1.1
-        - 3.2.0
-        - 3.3.0
-        - 3.3.1
-        - 3.4.0
-        - 3.4.1
-        - 3.4.2
-        - 3.4.4
-        - 3.4.5
-        - 3.4.7
-        - 3.4.9
-        - 3.5.0
-        - 3.5.2
-        - 3.6.1
-        - 3.7.0
-        - 3.7.1
-        - 3.7.3
-        - 3.7.5
-        - 4.0.0
-        compatible:
-        - 0.0.3
-        - 0.0.4
-        - 0.0.5
-        - 0.0.6
-        - 0.0.7
-        - 0.0.8
-        - 0.0.10
-        - 0.0.11
-        - 0.0.12
-        - 0.0.13
-        - 0.0.14
-        - 0.0.15
-        - 0.0.16
-        - 2.0.0
-        - 2.0.3
-        - 2.0.4
-        - 2.0.7
-        - 2.0.8
-        - 2.3.1
-        - 2.3.2
-        - 3.0.1
-        - 3.0.2
-        - 3.0.3
-        - 3.1.1
-        - 3.2.0
-        - 3.3.0
-        - 3.3.1
-        - 3.4.0
-        - 3.4.1
-        - 3.4.2
-        - 3.4.4
-        - 3.4.5
-        - 3.4.7
-        - 3.4.9
-        - 3.5.0
-        - 3.5.2
-        - 3.6.1
-        - 3.7.0
-        - 3.7.1
-        - 3.7.3
-        - 3.7.5
-        - 4.0.0
-        verified: 3.7.5
-      dependencies:
-      - name: com.unity.ugui
-        version: 1.0.0
-      resolvedDependencies:
-      - name: com.unity.ugui
-        version: 1.0.0
-      - name: com.unity.modules.ui
-        version: 1.0.0
-      - name: com.unity.modules.imgui
-        version: 1.0.0
-      keywords:
-      - ads
-      - unity
-      registry:
-        id: main
-        name: 
-        url: https://packages.unity.com
-        scopes: []
-        isDefault: 1
-        capabilities: 7
-      hasRegistry: 1
-      hideInEditor: 1
-      entitlements:
-        isAllowed: 1
-      isAssetStorePackage: 0
-      datePublishedTicks: 637741266210000000
-      documentationUrl: 
-      hasRepository: 1
-      repository:
-        type: git
-        url: https://github.com/Unity-Technologies/unity-ads-sdk.git
-        revision: b68be536ef30f6f77e18d14198cacee783102fa5
-        path: 
-    - packageId: com.unity.analytics@3.6.11
-      testable: 0
-      isDirectDependency: 1
-      version: 3.6.11
-      source: 1
-      resolvedPath: E:\UnityProjects\2DSpaceShooter\Library\PackageCache\com.unity.analytics@3.6.11
+      resolvedPath: E:\UnityProjects\2DSpaceShooter\Library\PackageCache\com.unity.analytics@3.6.12
       assetPath: Packages/com.unity.analytics
       name: com.unity.analytics
       displayName: Analytics Library
@@ -383,13 +243,13 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637629809450000000
+      datePublishedTicks: 637692274360000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/com.unity.analytics.git
-        revision: e79ad7c394f265365ea4389b6142b2ee72299037
+        revision: 16fe75b69f168b066926595ade9b0473c3b32c5f
         path: 
     - packageId: com.unity.collab-proxy@1.13.5
       testable: 0
@@ -601,7 +461,7 @@ m_PackageAssets:
         version: 1.1.1
       resolvedDependencies:
       - name: com.unity.test-framework
-        version: 1.1.29
+        version: 1.1.30
       - name: com.unity.ext.nunit
         version: 1.0.6
       - name: com.unity.modules.imgui
@@ -690,7 +550,7 @@ m_PackageAssets:
         version: 1.1.9
       resolvedDependencies:
       - name: com.unity.test-framework
-        version: 1.1.29
+        version: 1.1.30
       - name: com.unity.ext.nunit
         version: 1.0.6
       - name: com.unity.modules.imgui
@@ -966,12 +826,12 @@ m_PackageAssets:
         url: https://github.cds.internal.unity3d.com/unity/com.unity.purchasing.git
         revision: 4dccbbbbdb61c481d208d59a92c0c058ccad4e32
         path: 
-    - packageId: com.unity.test-framework@1.1.29
+    - packageId: com.unity.test-framework@1.1.30
       testable: 0
       isDirectDependency: 1
-      version: 1.1.29
+      version: 1.1.30
       source: 1
-      resolvedPath: E:\UnityProjects\2DSpaceShooter\Library\PackageCache\com.unity.test-framework@1.1.29
+      resolvedPath: E:\UnityProjects\2DSpaceShooter\Library\PackageCache\com.unity.test-framework@1.1.30
       assetPath: Packages/com.unity.test-framework
       name: com.unity.test-framework
       displayName: Test Framework
@@ -1051,13 +911,13 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637647922650000000
+      datePublishedTicks: 637702469360000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
-        url: git+https://github.com/Unity-Technologies/com.unity.test-framework.git
-        revision: dac53542acdab7a12e9ebf111ac588d0e53cf483
+        url: https://github.com/Unity-Technologies/com.unity.test-framework.git
+        revision: 4a3f541cb46e2f6875b3a938daba8c7113020873
         path: 
     - packageId: com.unity.textmeshpro@3.0.6
       testable: 0

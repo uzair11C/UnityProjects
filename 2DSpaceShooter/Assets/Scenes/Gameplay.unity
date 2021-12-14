@@ -123,6 +123,12 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!4 &28037965 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 593658601160191188, guid: 3ecf057d15eb76246985c01fbfc64dbd,
+    type: 3}
+  m_PrefabInstance: {fileID: 5218513766770372799}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &344210524
 GameObject:
   m_ObjectHideFlags: 0
@@ -233,6 +239,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scrollSpeed: 0.45
+--- !u!4 &422056042 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 294211851229945839, guid: 3ecf057d15eb76246985c01fbfc64dbd,
+    type: 3}
+  m_PrefabInstance: {fileID: 5218513766770372799}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -564,6 +576,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5218513766301069708, guid: 3ecf057d15eb76246985c01fbfc64dbd,
+        type: 3}
+      propertyPath: L_A_P
+      value: 
+      objectReference: {fileID: 422056042}
+    - target: {fileID: 5218513766301069708, guid: 3ecf057d15eb76246985c01fbfc64dbd,
+        type: 3}
+      propertyPath: R_A_P
+      value: 
+      objectReference: {fileID: 28037965}
     - target: {fileID: 5218513766301069710, guid: 3ecf057d15eb76246985c01fbfc64dbd,
         type: 3}
       propertyPath: m_RootOrder
@@ -572,12 +594,12 @@ PrefabInstance:
     - target: {fileID: 5218513766301069710, guid: 3ecf057d15eb76246985c01fbfc64dbd,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 5218513766301069710, guid: 3ecf057d15eb76246985c01fbfc64dbd,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2
+      value: -3.6
       objectReference: {fileID: 0}
     - target: {fileID: 5218513766301069710, guid: 3ecf057d15eb76246985c01fbfc64dbd,
         type: 3}
