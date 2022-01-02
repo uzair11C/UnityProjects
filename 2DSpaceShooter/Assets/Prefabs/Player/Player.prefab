@@ -96,6 +96,7 @@ GameObject:
   - component: {fileID: 5218513766301069706}
   - component: {fileID: 5218513766770372801}
   - component: {fileID: 5218513766770372802}
+  - component: {fileID: 555205478}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -190,6 +191,8 @@ MonoBehaviour:
   sensitivity: 3
   player: {fileID: 5218513766301069710}
   bullet: {fileID: 1663858205746729078, guid: 488a1ec20305bed4291a819cf5a472ba, type: 3}
+  L_A_P: {fileID: 294211851229945839}
+  R_A_P: {fileID: 593658601160191188}
   attackTimer: 0.15
 --- !u!50 &5218513766301069706
 Rigidbody2D:
@@ -301,6 +304,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4e1ea0f1190db24faa04295508671c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  explosion: {fileID: 1841529729820608888, guid: b1e002852be967b47ab43251ce595d72,
+    type: 3}
+--- !u!114 &555205478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5218513766301069712}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e212602a87c636b468ad15805c393a89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score_text: {fileID: 0}
 --- !u!1 &6168305169857540039
 GameObject:
   m_ObjectHideFlags: 0

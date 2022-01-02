@@ -25,7 +25,7 @@ namespace EasyInput.StandardControllers
         public Transform L_A_P;
         public Transform R_A_P;
 
-        public float attackTimer = 0.15f;
+        public float attackTimer = 0.5f;
         private float currentAttackTime;
         private bool canAttack;
 

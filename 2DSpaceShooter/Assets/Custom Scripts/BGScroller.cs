@@ -11,6 +11,15 @@ public class BGScroller : MonoBehaviour
 
     private float y_scroll;
 
+    public Material[] materials;
+
+    int num;
+
+    void Start()
+    {
+        num = Random.Range(0, materials.Length);
+    }
+
     void Awake()
     {
         mesh_renderer = GetComponent<MeshRenderer>();
@@ -28,5 +37,15 @@ public class BGScroller : MonoBehaviour
     void Update()
     {
         Scroll();
+        MeshRenderer mesh = GetComponent<MeshRenderer>();
+        mesh.material = materials[num];
+        //StartCoroutine(material_change(3));
     }
+
+    //IEnumerator material_change(int sec)
+    //{
+    //    yield return new WaitForSeconds(sec);
+    //    MeshRenderer mesh = GetComponent<MeshRenderer>();
+    //    mesh.material = materials[num];
+    //}
 }

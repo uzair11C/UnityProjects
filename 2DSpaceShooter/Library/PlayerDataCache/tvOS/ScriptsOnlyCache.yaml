@@ -120,7 +120,13 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 64
       Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
     - Class: 81
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
@@ -350,7 +356,7 @@ ScriptsOnlyBuild:
     className: StandardMatchOrientationHorizontalController
   - hash:
       serializedVersion: 2
-      Hash: d64bb51f26236fa7ab85d3e0cc495280
+      Hash: 4951635fed0ab17f2d5b440a31514460
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: BulletScript
@@ -422,7 +428,7 @@ ScriptsOnlyBuild:
     className: CustomMotionController
   - hash:
       serializedVersion: 2
-      Hash: 0ff0ba5f217ccf332ec6c2476998a094
+      Hash: c0fc42ec103f4e197cbd928a32722b60
     assemblyName: Assembly-CSharp.dll
     namespaceName: EasyInput.StandardControllers
     className: StandardTouchpadController
@@ -806,7 +812,7 @@ ScriptsOnlyBuild:
     className: EnvMapAnimator
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: d8f4bf2bc1a75f1882afcbbe788b3e30
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: collision
@@ -860,7 +866,7 @@ ScriptsOnlyBuild:
     className: SignalReceiver
   - hash:
       serializedVersion: 2
-      Hash: b8a025422a11c1de812bac762766499a
+      Hash: c991b11f241d0e95f19f48be46b0970c
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: BGScroller

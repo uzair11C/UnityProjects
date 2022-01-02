@@ -6,9 +6,9 @@ public class BulletScript : MonoBehaviour
 {
     public float speed = 5f;
     private Rigidbody2D rb;
-    private float bound_y = 5.5f;
+    private float bound_y = 5.0f;
 
-    public int score = 0;
+    public static int score = 0;
 
     void Start()
     {
@@ -26,12 +26,11 @@ public class BulletScript : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.tag == "Circle")
+        if (other.gameObject.tag == "Circle" && asteroid.health == 0)
         {
-            Debug.Log("Destroyed Asteroid!");
             Destroy(other.gameObject);
             score++;
-            this.gameObject.SetActive(false);
+            Destroy(this.gameObject);
         }
     }
 }
