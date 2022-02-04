@@ -1464,6 +1464,18 @@ void RegisterAllStrippedInternalCalls()
 
 	//End Registrations for type : UnityEngine.PlayerConnectionInternal
 
+	//Start Registrations for type : UnityEngine.PlayerPrefs
+
+		//System.Boolean UnityEngine.PlayerPrefs::TrySetInt(System.String,System.Int32)
+		void Register_UnityEngine_PlayerPrefs_TrySetInt();
+		Register_UnityEngine_PlayerPrefs_TrySetInt();
+
+		//System.Int32 UnityEngine.PlayerPrefs::GetInt(System.String,System.Int32)
+		void Register_UnityEngine_PlayerPrefs_GetInt();
+		Register_UnityEngine_PlayerPrefs_GetInt();
+
+	//End Registrations for type : UnityEngine.PlayerPrefs
+
 	//Start Registrations for type : UnityEngine.Profiling.Profiler
 
 		//System.Void UnityEngine.Profiling.Profiler::BeginSampleImpl(System.String,UnityEngine.Object)
@@ -2169,6 +2181,10 @@ void RegisterAllStrippedInternalCalls()
 	//End Registrations for type : UnityEngine.TextGenerator
 
 	//Start Registrations for type : UnityEngine.TextMesh
+
+		//System.String UnityEngine.TextMesh::get_text()
+		void Register_UnityEngine_TextMesh_get_text();
+		Register_UnityEngine_TextMesh_get_text();
 
 		//System.Void UnityEngine.TextMesh::get_color_Injected(UnityEngine.Color&)
 		void Register_UnityEngine_TextMesh_get_color_Injected();

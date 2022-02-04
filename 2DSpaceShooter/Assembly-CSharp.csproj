@@ -59,9 +59,11 @@
     <Compile Include="Assets\Easy Input Helper 1\Scripts\Miscellaneous\CameraFollowBall.cs" />
     <Compile Include="Assets\Easy Input Helper 1\Scripts\Standard Controllers\StandardTouchDpadController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
+    <Compile Include="Assets\Custom Scripts\coin_script.cs" />
     <Compile Include="Assets\Easy Input Helper 1\Scripts\Standard Controllers\StandardAccelerometerController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
+    <Compile Include="Assets\Custom Scripts\high_score.cs" />
     <Compile Include="Assets\Custom Scripts\asteroid.cs" />
     <Compile Include="Assets\Easy Input Helper 1\Scripts\Standard Controllers\StandardMatchOrientationHorizontalController.cs" />
     <Compile Include="Assets\Custom Scripts\BulletScript.cs" />
@@ -80,6 +82,7 @@
     <Compile Include="Assets\Easy Input Helper 1\Scripts\Standard Controllers\StandardAxisController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
     <Compile Include="Assets\Custom Scripts\asteroidDeployer.cs" />
+    <Compile Include="Assets\Custom Scripts\current_coins.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
     <Compile Include="Assets\Easy Input Helper 1\Scripts\Miscellaneous\ControllerDiagnostics.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
@@ -125,7 +128,6 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\Custom Scripts\MenuNavigator.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
-    <Compile Include="Assets\scoreScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

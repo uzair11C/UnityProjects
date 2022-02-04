@@ -218,7 +218,7 @@ Transform:
   m_LocalScale: {x: 18, y: 10.2, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &344210529
 MonoBehaviour:
@@ -381,7 +381,7 @@ Camera:
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
   m_TargetEye: 0
-  m_HDR: 1
+  m_HDR: 0
   m_AllowMSAA: 0
   m_AllowDynamicResolution: 0
   m_ForceIntoRT: 0
@@ -495,7 +495,7 @@ RectTransform:
   m_Children:
   - {fileID: 1019857711}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -563,6 +563,7 @@ GameObject:
   - component: {fileID: 1019857711}
   - component: {fileID: 1019857713}
   - component: {fileID: 1019857712}
+  - component: {fileID: 1019857714}
   m_Layer: 5
   m_Name: Score
   m_TagString: Untagged
@@ -586,7 +587,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 137.8, y: -68.1}
+  m_AnchoredPosition: {x: 137.80002, y: -68.100006}
   m_SizeDelta: {x: 219.3271, y: 62.8846}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1019857712
@@ -622,7 +623,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1.66
-  m_Text: 'Score: 00'
+  m_Text: 'Coins: 00'
 --- !u!222 &1019857713
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -631,6 +632,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1019857710}
   m_CullTransparentMesh: 1
+--- !u!114 &1019857714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1019857710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e212602a87c636b468ad15805c393a89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score_text: {fileID: 1019857712}
 --- !u!1 &1396999206
 GameObject:
   m_ObjectHideFlags: 0
@@ -813,14 +827,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 555205478, guid: 3ecf057d15eb76246985c01fbfc64dbd, type: 3}
-      propertyPath: score_text
-      value: 
-      objectReference: {fileID: 1019857712}
     - target: {fileID: 5218513766301069710, guid: 3ecf057d15eb76246985c01fbfc64dbd,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5218513766301069710, guid: 3ecf057d15eb76246985c01fbfc64dbd,
         type: 3}

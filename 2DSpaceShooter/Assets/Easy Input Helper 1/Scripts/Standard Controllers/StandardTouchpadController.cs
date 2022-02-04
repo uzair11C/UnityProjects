@@ -44,6 +44,7 @@ namespace EasyInput.StandardControllers
         void Start()
         {
             currentAttackTime = attackTimer;
+            coin_script.current_score = 0;
         }
 
         // Update is called once per frame

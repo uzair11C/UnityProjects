@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 3846123727916736359}
   - component: {fileID: 7943500001609708967}
   - component: {fileID: 402899502646898046}
+  - component: {fileID: -7862942901423329664}
   m_Layer: 0
   m_Name: Circle
   m_TagString: Circle
@@ -149,7 +150,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3933611070609857689}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.534, y: 2.568, z: 0}
+  m_LocalPosition: {x: 3.534, y: 2.568, z: 1}
   m_LocalScale: {x: 0.8069, y: 0.8032, z: 1}
   m_Children:
   - {fileID: 3685084464319851242}
@@ -242,6 +243,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 7.07
   hit_counter: {fileID: 4209651724463281417}
+  coin: {fileID: 4602522191808818636, guid: e2b82555fa62fe24eb3960ae30332616, type: 3}
 --- !u!58 &402899502646898046
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -258,3 +260,14 @@ CircleCollider2D:
   m_Offset: {x: -0.045948625, y: 0}
   serializedVersion: 2
   m_Radius: 0.9538628
+--- !u!210 &-7862942901423329664
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3933611070609857689}
+  m_Enabled: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 2

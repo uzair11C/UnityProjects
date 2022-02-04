@@ -4098,6 +4098,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool TextGenerator_Populate_Internal_Injected
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// System.String UnityEngine.TextMesh::get_text()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* TextMesh_get_text_m5F0AFB132AB91B91B04386F5769F2A2F04C2A13B (TextMesh_t830C2452CE189A0D35CD9ED26B6B74D506B01273 * __this, const RuntimeMethod* method)
+{
+	typedef String_t* (*TextMesh_get_text_m5F0AFB132AB91B91B04386F5769F2A2F04C2A13B_ftn) (TextMesh_t830C2452CE189A0D35CD9ED26B6B74D506B01273 *);
+	static TextMesh_get_text_m5F0AFB132AB91B91B04386F5769F2A2F04C2A13B_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (TextMesh_get_text_m5F0AFB132AB91B91B04386F5769F2A2F04C2A13B_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.TextMesh::get_text()");
+	String_t* icallRetVal = _il2cpp_icall_func(__this);
+	return icallRetVal;
+}
 // System.Void UnityEngine.TextMesh::set_text(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextMesh_set_text_m5879B13F5C9E4A1D05155839B89CCDB85BE28A04 (TextMesh_t830C2452CE189A0D35CD9ED26B6B74D506B01273 * __this, String_t* ___value0, const RuntimeMethod* method)
 {

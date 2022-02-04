@@ -8,7 +8,7 @@ public class BulletScript : MonoBehaviour
     private Rigidbody2D rb;
     private float bound_y = 5.0f;
 
-    public static int score = 0;
+    public GameObject coin;
 
     void Start()
     {
@@ -26,11 +26,17 @@ public class BulletScript : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.tag == "Circle" && asteroid.health == 0)
+        if (other.gameObject.tag == "Circle" && asteroid.health <= 1)
         {
+            asteroid.health = 0;
             Destroy(other.gameObject);
-            score++;
-            Destroy(this.gameObject);
+
+            Instantiate(coin, Vector2.zero, Quaternion.identity);
+            coin.transform.position = other.transform.position;
+
+            //Debug.Log(coin.transform.position);
+
+            Destroy(gameObject);
         }
     }
 }
