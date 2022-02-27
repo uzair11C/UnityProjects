@@ -1,7 +1,10 @@
 using UnityEngine;
+using EasyInput.Core;
 
 public class KnifeScript : MonoBehaviour
 {
+    //ButtonClick button;
+
     [SerializeField]
     private Vector2 throwForce;
 
@@ -20,11 +23,15 @@ public class KnifeScript : MonoBehaviour
     void Update()
     {
         
-        if (Input.GetMouseButtonDown(0) && isActive)
+    }
+
+    public void throwKnife(ButtonClick button)
+    {
+        if (isActive)
         {
-            
+
             rb.AddForce(throwForce, ForceMode2D.Impulse);
-            
+
             rb.gravityScale = 1;
             //TODO: Decrement number of available knives
         }
