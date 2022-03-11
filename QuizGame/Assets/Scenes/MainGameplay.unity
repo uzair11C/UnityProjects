@@ -655,10 +655,13 @@ MonoBehaviour:
     answerable: 1
   - caller_type: Restaurant Promo
     answerable: 0
-  caller: {fileID: 393360123}
   answer: {fileID: 1406969201}
   answer_button: {fileID: 1066695722}
   decline_button: {fileID: 833761573}
+  c_score: {fileID: 1047600365}
+  timer: {fileID: 1758678900}
+  caller: {fileID: 393360123}
+  ans_time: 15
 --- !u!4 &922205423
 Transform:
   m_ObjectHideFlags: 0
